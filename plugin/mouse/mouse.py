@@ -49,7 +49,7 @@ mod.tag(
 setting_mouse_enable_pop_click = mod.setting(
     "mouse_enable_pop_click",
     type=int,
-    default=0,
+    default=2,
     desc="Pop noise clicks left mouse button. 0 = off, 1 = on with eyetracker but not with zoom mouse mode, 2 = on but not with zoom mouse mode",
 )
 setting_mouse_enable_pop_stops_scroll = mod.setting(
